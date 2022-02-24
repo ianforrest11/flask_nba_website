@@ -9,6 +9,9 @@ verify_ssl = true
 flask = "*"
 flask-login = "*"
 flask-sqlalchemy = "*"
+nba-api = "*"
+numpy = "*"
+pandas = "*"
 
 [requires]
 python_version = "3.9"

@@ -12,6 +12,7 @@ flask-sqlalchemy = "*"
 nba-api = "*"
 numpy = "*"
 pandas = "*"
+pyodbc = "*"
 
 [requires]
 python_version = "3.9"

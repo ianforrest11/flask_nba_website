@@ -1,6 +1,7 @@
-lst = [203500, '2021-22', '00', 1610612763, 'MEM', 28.0, 57, 56, 1491.0, 156, 288, 0.542, 0, 0, 0.0, 87, 157, 0.554, 257, 292, 549, 185, 49, 39, 91, 110, 399]
+import pandas as pd
 
-print(lst)
+for i in range(1):
+    most_recent_stats = pd.Series([1629638, 0, 'TOT', 23.0, 52, 19, 1322.0, 237, 633, 0.374, 95, 306, 0.31, 70, 97, 0.722, 36, 129, 165, 139, 41, 19, 85, 88, 639])
 
-lst.insert(0,2)
-print(lst)
+    most_recent_stats = [x if (type(x) != float or x.is_integer() == False) else int(x) for x in list(most_recent_stats)]
+    print(most_recent_stats)

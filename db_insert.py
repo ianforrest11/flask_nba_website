@@ -30,7 +30,7 @@ c.execute('''
            [age] INTEGER,
            [games_played] INTEGER,
            [games_started] INTEGER,
-           [minutes] FLOAT,
+           [minutes] INTEGER,
            [fgm] INTEGER,
            [fga] INTEGER,
            [fg_pct] FLOAT,
@@ -75,13 +75,22 @@ for player in nba_players:
         print(player_career_stats)
         print('\n')
     if most_recent_season['SEASON_ID'] == '2021-22':
+        print(most_recent_season)
         print('name:', name)
         print(name, 'is a current player')
         nba_player_id = int(most_recent_season['PLAYER_ID'])
         print('id:', id)
         nba_team_id = int(most_recent_season['TEAM_ID'])
+        if nba_team_id == 0:
+            nba_team_id = int(player_career_stats.iloc[-2]['TEAM_ID'])
+        else:
+            nba_team_id = int(most_recent_season['TEAM_ID'])
         print('nba_team_id:', nba_team_id)
         team_abbr = most_recent_season['TEAM_ABBREVIATION']
+        if team_abbr == 'TOT':
+            team_abbr = player_career_stats.iloc[-2]['TEAM_ABBREVIATION']
+        else:
+            team_abbr = most_recent_season['TEAM_ABBREVIATION']
         print('team_abbr:', team_abbr)
         age = int(most_recent_season['PLAYER_AGE'])
         print('age:', age)

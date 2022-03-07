@@ -33,13 +33,13 @@ c.execute('''
            [minutes] INTEGER,
            [fgm] INTEGER,
            [fga] INTEGER,
-           [fg_pct] FLOAT,
+           [fg_pct] VARCHAR,
            [fg3m] INTEGER,
            [fg3a] INTEGER,
-           [fg3_pct] FLOAT,
+           [fg3_pct] VARCHAR,
            [ftm] INTEGER,
            [fta] INTEGER,
-           [ft_pct] FLOAT,
+           [ft_pct] VARCHAR,
            [points] INTEGER,
            [orebounds] INTEGER,
            [drebounds] INTEGER,
@@ -92,25 +92,41 @@ for player in nba_players:
         else:
             team_abbr = most_recent_season['TEAM_ABBREVIATION']
         print('team_abbr:', team_abbr)
+        # age
         age = int(most_recent_season['PLAYER_AGE'])
         print('age:', age)
+        # games played
         games_played = int(most_recent_season['GP'])
         print('games_played:', games_played)
+        # games started
         games_started = int(most_recent_season['GS'])
         print('games_started:', games_started)
+        # minutes
         minutes = int(most_recent_season['MIN'])
         print('minutes:', minutes)
+        # fgm
         fgm = int(most_recent_season['FGM'])
         print('fgm:', fgm)
+        # fga
         fga = int(most_recent_season['FGA'])
         print('fga:', fga)
-        fg_pct = float(most_recent_season['FG_PCT'])
+        # field goal %
+        try:
+            fg_pct = "%0.3f" % round(float(fgm/fga),3)
+        except:
+            fg_pct = "%0.3f" % round(float(0), 3)
         print('fg_pct:', fg_pct)
+        # fg3m
         fg3m = int(most_recent_season['FG3M'])
         print('fg3m:', fg3m)
+        # fg3a
         fg3a = int(most_recent_season['FG3A'])
         print('fg3a:', fg3a)
-        fg3_pct = float(most_recent_season['FG3_PCT'])
+        # 3pt field goal %
+        try:
+            fg3_pct = "%0.3f" % round(float(fg3m/fg3a),3)
+        except:
+            fg3_pct = "%0.3f" % round(float(0), 3)
         print('fg3_pct:', fg3_pct)
         ftm = int(most_recent_season['FTM'])
         print('ftm:', fgm)

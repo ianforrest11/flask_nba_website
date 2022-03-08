@@ -233,3 +233,9 @@ for i in range(number_of_rows):
             error_file.write('Issue with row ' + str(i) + ' at ' + now + '. Check code in row ' + str(row) + ' of update.py' + '\n')
             error_file.write(str(e) + '\n\n')        
         error_file.close()
+
+
+now = datetime.now().strftime("%d/%m/%Y, %H:%M:%S")
+with open('log.txt', 'a') as f:
+    f.write('batch complete at '+ str(now) + '\n')
+f.close()

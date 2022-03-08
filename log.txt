@@ -148,3 +148,809 @@ ft_pct for Robert Covington updated from 0.83 to 0.830 at 07/03/2022, 16:12:21
 
 
 
+
+
+
+
+
+
+ft_pct for Javin DeLaurier updated from 0.0 to 0.000 at 07/03/2022, 16:12:49
+
+
+ft_pct for Gabriel Deck updated from 0.0 to 0.000 at 07/03/2022, 16:12:52
+
+
+ft_pct for Sam Dekker updated from 0.0 to 0.000 at 07/03/2022, 16:12:55
+
+
+
+
+ft_pct for Hamidou Diallo updated from 0.65 to 0.650 at 07/03/2022, 16:13:05
+
+
+
+
+
+
+ft_pct for Damyean Dotson updated from 0.0 to 0.000 at 07/03/2022, 16:13:20
+
+
+ft_pct for Sekou Doumbouya updated from 0.75 to 0.750 at 07/03/2022, 16:13:24
+
+ft_pct for Jeff Dowtin updated from 0.0 to 0.000 at 07/03/2022, 16:13:27
+
+
+ft_pct for Precious Achiuwa updated from 0.57 to 0.570 at 07/03/2022, 19:43:01
+
+
+
+ft_pct for Santi Aldama updated from 0.6 to 0.600 at 07/03/2022, 19:43:07
+
+
+
+
+
+
+
+
+
+
+
+
+
+ft_pct for Ryan Arcidiacono updated from 0.0 to 0.000 at 07/03/2022, 19:43:37
+
+
+
+
+ft_pct for Joel Ayayi updated from 0.0 to 0.000 at 07/03/2022, 19:43:45
+
+
+
+
+
+ft_pct for Lonzo Ball updated from 0.75 to 0.750 at 07/03/2022, 19:43:57
+
+
+
+
+
+
+ft_pct for RJ Barrett updated from 0.7 to 0.700 at 07/03/2022, 19:44:10
+
+
+ft_pct for Charles Bassey updated from 0.75 to 0.750 at 07/03/2022, 19:44:16
+
+
+
+
+
+
+
+ft_pct for Jordan Bell updated from 0.0 to 0.000 at 07/03/2022, 19:44:32
+
+ft_pct for DeAndre' Bembry updated from 0.6 to 0.600 at 07/03/2022, 19:44:35
+
+
+
+
+
+
+
+
+
+ft_pct for Keljin Blevins updated from 0.0 to 0.000 at 07/03/2022, 19:44:55
+
+
+ft_pct for Bojan Bogdanovic updated from 0.87 to 0.870 at 07/03/2022, 19:45:00
+
+ft_pct for Bol Bol updated from 0.4 to 0.400 at 07/03/2022, 19:45:03
+
+
+
+
+
+ft_pct for Chris Boucher updated from 0.77 to 0.770 at 07/03/2022, 19:45:14
+
+
+
+
+
+
+ft_pct for Miles Bridges updated from 0.8 to 0.800 at 07/03/2022, 19:45:28
+
+
+
+
+
+
+
+
+
+
+
+ft_pct for Charlie Brown Jr. updated from 0.9 to 0.900 at 07/03/2022, 19:45:55
+
+ft_pct for Troy Brown Jr. updated from 0.76 to 0.760 at 07/03/2022, 19:45:56
+
+
+
+ft_pct for Shaq Buchanan updated from 0.0 to 0.000 at 07/03/2022, 19:46:02
+
+ft_pct for Reggie Bullock updated from 0.85 to 0.850 at 07/03/2022, 19:46:04
+
+
+
+
+
+
+
+
+ft_pct for Vlatko Cancar updated from 0.75 to 0.750 at 07/03/2022, 19:46:18
+
+ft_pct for Clint Capela updated from 0.47 to 0.470 at 07/03/2022, 19:46:20
+
+
+
+
+
+ft_pct for Willie Cauley-Stein updated from 0.5 to 0.500 at 07/03/2022, 19:46:31
+
+ft_pct for Justin Champagnie updated from 1.0 to 1.000 at 07/03/2022, 19:46:33
+
+ft_pct for Zylan Cheatham updated from 0.0 to 0.000 at 07/03/2022, 19:46:35
+
+ft_pct for Chris Chiozza updated from 1.0 to 1.000 at 07/03/2022, 19:46:38
+
+
+
+ft_pct for Gary Clark updated from 0.75 to 0.750 at 07/03/2022, 19:46:45
+
+
+ft_pct for Jordan Clarkson updated from 0.84 to 0.840 at 07/03/2022, 19:46:50
+
+
+
+ft_pct for John Collins updated from 0.79 to 0.790 at 07/03/2022, 19:46:57
+
+ft_pct for Zach Collins updated from 0.7 to 0.700 at 07/03/2022, 19:46:58
+steals for Zach Collins updated from 7 to 6 at 07/03/2022, 19:46:58
+blocks for Zach Collins updated from 5 to 6 at 07/03/2022, 19:46:58
+
+ft_pct for Darren Collison updated from 0.0 to 0.000 at 07/03/2022, 19:47:00
+
+
+
+
+ft_pct for Sharife Cooper updated from 0.0 to 0.000 at 07/03/2022, 19:47:08
+
+ft_pct for Petr Cornelie updated from 0.75 to 0.750 at 07/03/2022, 19:47:09
+
+
+ft_pct for Robert Covington updated from 0.83 to 0.830 at 07/03/2022, 19:47:15
+
+
+
+
+
+
+
+
+
+
+ft_pct for Javin DeLaurier updated from 0.0 to 0.000 at 07/03/2022, 19:47:37
+
+
+ft_pct for Gabriel Deck updated from 0.0 to 0.000 at 07/03/2022, 19:47:43
+
+
+ft_pct for Sam Dekker updated from 0.0 to 0.000 at 07/03/2022, 19:47:47
+
+
+
+
+ft_pct for Hamidou Diallo updated from 0.65 to 0.650 at 07/03/2022, 19:47:57
+
+
+
+
+
+
+ft_pct for Damyean Dotson updated from 0.0 to 0.000 at 07/03/2022, 19:48:12
+
+
+ft_pct for Sekou Doumbouya updated from 0.75 to 0.750 at 07/03/2022, 19:48:16
+
+ft_pct for Jeff Dowtin updated from 0.0 to 0.000 at 07/03/2022, 19:48:19
+
+
+
+ft_pct for Andre Drummond updated from 0.5 to 0.500 at 07/03/2022, 19:48:26
+
+
+ft_pct for David Duke Jr. updated from 0.81 to 0.810 at 07/03/2022, 19:48:30
+
+
+ft_pct for Jaime Echenique updated from 0.0 to 0.000 at 07/03/2022, 19:48:33
+
+
+
+ft_pct for Rob Edwards updated from 0.0 to 0.000 at 07/03/2022, 19:48:40
+
+
+ft_pct for Wayne Ellington updated from 0.8 to 0.800 at 07/03/2022, 19:48:44
+
+
+ft_pct for James Ennis III updated from 0.8 to 0.800 at 07/03/2022, 19:48:47
+
+
+
+ft_pct for Derrick Favors updated from 0.64 to 0.640 at 07/03/2022, 19:48:55
+
+ft_pct for Bruno Fernando updated from 0.75 to 0.750 at 07/03/2022, 19:48:56
+
+
+ft_pct for Malik Fitts updated from 0.0 to 0.000 at 07/03/2022, 19:49:00
+
+
+
+
+
+
+
+ft_pct for Markelle Fultz updated from 1.0 to 1.000 at 07/03/2022, 19:49:17
+
+ft_pct for Wenyen Gabriel updated from 0.5 to 0.500 at 07/03/2022, 19:49:19
+
+
+
+ft_pct for Langston Galloway updated from 0.0 to 0.000 at 07/03/2022, 19:49:26
+
+
+ft_pct for Marcus Garrett updated from 0.4 to 0.400 at 07/03/2022, 19:49:31
+
+ft_pct for Usman Garuba updated from 0.5 to 0.500 at 07/03/2022, 19:49:34
+
+
+
+ft_pct for Paul George updated from 0.88 to 0.880 at 07/03/2022, 19:49:40
+
+
+
+
+ft_pct for Anthony Gill updated from 0.71 to 0.710 at 07/03/2022, 19:49:49
+
+
+
+
+ft_pct for Jordan Goodwin updated from 0.0 to 0.000 at 07/03/2022, 19:49:58
+
+
+
+
+
+ft_pct for Hassani Gravett updated from 0.75 to 0.750 at 07/03/2022, 19:50:13
+
+ft_pct for Danny Green updated from 0.9 to 0.900 at 07/03/2022, 19:50:15
+
+
+ft_pct for JaMychal Green updated from 0.88 to 0.880 at 07/03/2022, 19:50:20
+
+
+
+
+
+
+
+
+
+drebounds for Tyrese Haliburton updated from 206 to 205 at 07/03/2022, 19:50:42
+rebounds for Tyrese Haliburton updated from 249 to 248 at 07/03/2022, 19:50:42
+
+
+
+
+
+ft_pct for Jared Harper updated from 0.0 to 0.000 at 07/03/2022, 19:50:55
+
+
+
+
+ft_pct for Tobias Harris updated from 0.86 to 0.860 at 07/03/2022, 19:51:05
+
+ft_pct for Shaquille Harrison updated from 0.0 to 0.000 at 07/03/2022, 19:51:08
+
+
+
+ft_pct for Udonis Haslem updated from 1.0 to 1.000 at 07/03/2022, 19:51:13
+
+ft_pct for Sam Hauser updated from 0.0 to 0.000 at 07/03/2022, 19:51:15
+
+
+
+
+ft_pct for Aaron Henry updated from 0.0 to 0.000 at 07/03/2022, 19:51:25
+
+
+
+
+
+ft_pct for Haywood Highsmith updated from 0.5 to 0.500 at 07/03/2022, 19:51:37
+
+ft_pct for George Hill updated from 0.96 to 0.960 at 07/03/2022, 19:51:40
+
+ft_pct for Solomon Hill updated from 0.0 to 0.000 at 07/03/2022, 19:51:42
+
+ft_pct for Nate Hinton updated from 0.0 to 0.000 at 07/03/2022, 19:51:43
+
+ft_pct for Jaylen Hoard updated from 0.0 to 0.000 at 07/03/2022, 19:51:46
+
+
+
+
+
+
+ft_pct for Scotty Hopson updated from 0.0 to 0.000 at 07/03/2022, 19:52:01
+
+
+
+
+
+
+
+ft_pct for Jay Huff updated from 0.0 to 0.000 at 07/03/2022, 19:52:16
+
+ft_pct for Elijah Hughes updated from 1.0 to 1.000 at 07/03/2022, 19:52:19
+
+
+ft_pct for Chandler Hutchison updated from 1.0 to 1.000 at 07/03/2022, 19:52:24
+
+
+
+ft_pct for Andre Iguodala updated from 0.813 to 0.812 at 07/03/2022, 19:52:30
+
+
+
+
+ft_pct for Wes Iwundu updated from 0.75 to 0.750 at 07/03/2022, 19:52:40
+
+
+ft_pct for Isaiah Jackson updated from 0.61 to 0.610 at 07/03/2022, 19:52:45
+drebounds for Isaiah Jackson updated from 51 to 52 at 07/03/2022, 19:52:45
+rebounds for Isaiah Jackson updated from 91 to 92 at 07/03/2022, 19:52:45
+
+
+ft_pct for Justin Jackson updated from 1.0 to 1.000 at 07/03/2022, 19:52:50
+
+
+
+
+ft_pct for DeJon Jarreau updated from 0.0 to 0.000 at 07/03/2022, 19:52:56
+
+ft_pct for DaQuan Jeffries updated from 0.0 to 0.000 at 07/03/2022, 19:52:59
+
+
+
+
+ft_pct for Alize Johnson updated from 0.5 to 0.500 at 07/03/2022, 19:53:06
+
+ft_pct for B.J. Johnson updated from 0.0 to 0.000 at 07/03/2022, 19:53:08
+
+
+ft_pct for David Johnson updated from 0.0 to 0.000 at 07/03/2022, 19:53:11
+
+
+ft_pct for James Johnson updated from 0.51 to 0.510 at 07/03/2022, 19:53:14
+
+ft_pct for Joe Johnson updated from 0.0 to 0.000 at 07/03/2022, 19:53:17
+
+
+
+
+ft_pct for Tyler Johnson updated from 0.0 to 0.000 at 07/03/2022, 19:53:26
+
+
+ft_pct for Carlik Jones updated from 1.0 to 1.000 at 07/03/2022, 19:53:30
+
+
+
+ft_pct for Jemerrio Jones updated from 0.0 to 0.000 at 07/03/2022, 19:53:36
+
+
+ft_pct for Mason Jones updated from 0.5 to 0.500 at 07/03/2022, 19:53:39
+
+
+
+
+
+ft_pct for Cory Joseph updated from 0.87 to 0.870 at 07/03/2022, 19:53:51
+
+
+ft_pct for Frank Kaminsky updated from 0.9 to 0.900 at 07/03/2022, 19:53:56
+
+
+
+ft_pct for George King updated from 0.5 to 0.500 at 07/03/2022, 19:54:01
+
+ft_pct for Louis King updated from 0.7 to 0.700 at 07/03/2022, 19:54:03
+
+ft_pct for Corey Kispert updated from 0.87 to 0.870 at 07/03/2022, 19:54:05
+
+
+ft_pct for Brandon Knight updated from 1.0 to 1.000 at 07/03/2022, 19:54:11
+
+
+
+ft_pct for John Konchar updated from 0.59 to 0.590 at 07/03/2022, 19:54:18
+
+
+
+ft_pct for Vit Krejci updated from 1.0 to 1.000 at 07/03/2022, 19:54:25
+
+ft_pct for Arnoldas Kulboka updated from 0.0 to 0.000 at 07/03/2022, 19:54:27
+
+
+
+
+ft_pct for Anthony Lamb updated from 0.0 to 0.000 at 07/03/2022, 19:54:36
+
+
+
+
+ft_pct for Jake Layman updated from 0.75 to 0.750 at 07/03/2022, 19:54:46
+
+ft_pct for Caris LeVert updated from 0.76 to 0.760 at 07/03/2022, 19:54:49
+
+ft_pct for Damion Lee updated from 0.86 to 0.860 at 07/03/2022, 19:54:51
+
+
+
+ft_pct for Scottie Lewis updated from 0.5 to 0.500 at 07/03/2022, 19:54:57
+
+
+
+
+ft_pct for Isaiah Livers updated from 0.0 to 0.000 at 07/03/2022, 19:55:05
+
+
+ft_pct for Brook Lopez updated from 0.0 to 0.000 at 07/03/2022, 19:55:08
+
+
+ft_pct for Didi Louzada updated from 0.0 to 0.000 at 07/03/2022, 19:55:11
+
+
+
+ft_pct for Timothe Luwawu-Cabarrot updated from 0.85 to 0.850 at 07/03/2022, 19:55:19
+
+
+ft_pct for Theo Maledon updated from 0.83 to 0.830 at 07/03/2022, 19:55:25
+
+ft_pct for Sandro Mamukelashvili updated from 0.75 to 0.750 at 07/03/2022, 19:55:27
+
+
+
+ft_pct for Boban Marjanovic updated from 0.5 to 0.500 at 07/03/2022, 19:55:33
+
+
+
+
+
+
+
+
+ft_pct for Dakota Mathias updated from 0.0 to 0.000 at 07/03/2022, 19:55:51
+
+ft_pct for Wesley Matthews updated from 0.75 to 0.750 at 07/03/2022, 19:55:54
+
+
+
+ft_pct for Miles McBride updated from 0.75 to 0.750 at 07/03/2022, 19:56:00
+
+ft_pct for Mac McClung updated from 0.0 to 0.000 at 07/03/2022, 19:56:03
+
+
+ft_pct for T.J. McConnell updated from 0.8 to 0.800 at 07/03/2022, 19:56:07
+
+
+
+
+
+
+ft_pct for Alfonzo McKinnie updated from 0.25 to 0.250 at 07/03/2022, 19:56:20
+
+ft_pct for JaQuori McLaughlin updated from 0.0 to 0.000 at 07/03/2022, 19:56:23
+
+
+
+
+ft_pct for Sam Merrill updated from 0.5 to 0.500 at 07/03/2022, 19:56:32
+
+
+
+ft_pct for CJ Miles updated from 0.0 to 0.000 at 07/03/2022, 19:56:39
+
+
+
+
+
+
+ft_pct for Evan Mobley updated from 0.67 to 0.670 at 07/03/2022, 19:56:53
+
+
+ft_pct for Greg Monroe updated from 0.5 to 0.500 at 07/03/2022, 19:56:58
+
+ft_pct for Moses Moody updated from 0.75 to 0.750 at 07/03/2022, 19:56:59
+
+ft_pct for Matt Mooney updated from 0.0 to 0.000 at 07/03/2022, 19:57:00
+
+
+ft_pct for Juwan Morgan updated from 0.0 to 0.000 at 07/03/2022, 19:57:05
+
+ft_pct for Jaylen Morris updated from 0.5 to 0.500 at 07/03/2022, 19:57:06
+
+ft_pct for Markieff Morris updated from 1.0 to 1.000 at 07/03/2022, 19:57:08
+
+
+ft_pct for Marcus Morris Sr. updated from 0.86 to 0.860 at 07/03/2022, 19:57:13
+
+ft_pct for Emmanuel Mudiay updated from 0.75 to 0.750 at 07/03/2022, 19:57:14
+
+ft_pct for Mychal Mulder updated from 1.0 to 1.000 at 07/03/2022, 19:57:16
+
+
+
+
+
+ft_pct for Abdel Nader updated from 0.6 to 0.600 at 07/03/2022, 19:57:29
+
+
+ft_pct for RJ Nembhard Jr. updated from 0.5 to 0.500 at 07/03/2022, 19:57:32
+
+
+
+ft_pct for Malik Newman updated from 1.0 to 1.000 at 07/03/2022, 19:57:38
+
+
+
+
+ft_pct for Nerlens Noel updated from 0.7 to 0.700 at 07/03/2022, 19:57:46
+
+
+
+ft_pct for Jusuf Nurkic updated from 0.69 to 0.690 at 07/03/2022, 19:57:52
+
+
+
+
+ft_pct for Semi Ojeleye updated from 0.75 to 0.750 at 07/03/2022, 19:58:03
+
+
+
+
+
+
+
+
+ft_pct for Eugene Omoruyi updated from 0.5 to 0.500 at 07/03/2022, 19:58:20
+
+ft_pct for Miye Oni updated from 0.0 to 0.000 at 07/03/2022, 19:58:22
+
+
+ft_pct for Daniel Oturu updated from 0.6 to 0.600 at 07/03/2022, 19:58:26
+
+
+ft_pct for Kevin Pangos updated from 0.75 to 0.750 at 07/03/2022, 19:58:31
+
+ft_pct for Jabari Parker updated from 1.0 to 1.000 at 07/03/2022, 19:58:34
+
+
+
+
+
+steals for Gary Payton II updated from 83 to 84 at 07/03/2022, 19:58:45
+
+ft_pct for Norvel Pelle updated from 0.0 to 0.000 at 07/03/2022, 19:58:48
+
+ft_pct for Reggie Perry updated from 1.0 to 1.000 at 07/03/2022, 19:58:51
+
+ft_pct for Jamorko Pickett updated from 0.0 to 0.000 at 07/03/2022, 19:58:54
+
+ft_pct for Theo Pinson updated from 1.0 to 1.000 at 07/03/2022, 19:58:56
+
+
+
+
+ft_pct for Yves Pons updated from 0.0 to 0.000 at 07/03/2022, 19:59:05
+
+
+
+
+
+ft_pct for Bobby Portis updated from 0.74 to 0.740 at 07/03/2022, 19:59:17
+
+
+ft_pct for Micah Potter updated from 1.0 to 1.000 at 07/03/2022, 19:59:21
+
+
+
+ft_pct for Joshua Primo updated from 0.75 to 0.750 at 07/03/2022, 19:59:27
+
+
+ft_pct for Payton Pritchard updated from 1.0 to 1.000 at 07/03/2022, 19:59:32
+
+ft_pct for Trevelin Queen updated from 1.0 to 1.000 at 07/03/2022, 19:59:35
+
+ft_pct for Neemias Queta updated from 0.6 to 0.600 at 07/03/2022, 19:59:36
+
+
+ft_pct for Jahmi'us Ramsey updated from 0.5 to 0.500 at 07/03/2022, 19:59:42
+
+
+
+
+
+ft_pct for Paul Reed updated from 0.4 to 0.400 at 07/03/2022, 19:59:55
+
+
+
+
+
+
+ft_pct for Justin Robinson updated from 0.5 to 0.500 at 07/03/2022, 20:00:10
+
+
+
+
+
+
+
+
+
+
+
+
+ft_pct for Jordan Schakel updated from 0.0 to 0.000 at 07/03/2022, 20:00:39
+
+ft_pct for Admiral Schofield updated from 0.7 to 0.700 at 07/03/2022, 20:00:41
+
+
+ft_pct for Jay Scrubb updated from 0.7 to 0.700 at 07/03/2022, 20:00:46
+
+ft_pct for Wayne Selden updated from 0.5 to 0.500 at 07/03/2022, 20:00:47
+
+
+
+
+
+
+
+
+
+ft_pct for Jericho Sims updated from 0.4 to 0.400 at 07/03/2022, 20:01:08
+
+ft_pct for Deividas Sirvydis updated from 0.0 to 0.000 at 07/03/2022, 20:01:10
+
+
+
+ft_pct for Ish Smith updated from 0.6 to 0.600 at 07/03/2022, 20:01:18
+
+
+
+ft_pct for Xavier Sneed updated from 0.0 to 0.000 at 07/03/2022, 20:01:26
+
+ft_pct for Tony Snell updated from 1.0 to 1.000 at 07/03/2022, 20:01:28
+
+ft_pct for Jaden Springer updated from 0.0 to 0.000 at 07/03/2022, 20:01:32
+
+ft_pct for Cassius Stanley updated from 1.0 to 1.000 at 07/03/2022, 20:01:34
+
+ft_pct for Nik Stauskas updated from 0.75 to 0.750 at 07/03/2022, 20:01:35
+
+
+
+
+
+
+
+
+
+
+
+ft_pct for Emanuel Terry updated from 0.0 to 0.000 at 07/03/2022, 20:02:01
+
+ft_pct for Tyrell Terry updated from 0.0 to 0.000 at 07/03/2022, 20:02:04
+
+ft_pct for Jon Teske updated from 0.0 to 0.000 at 07/03/2022, 20:02:06
+
+
+ft_pct for Brodric Thomas updated from 0.5 to 0.500 at 07/03/2022, 20:02:11
+
+
+
+ft_pct for Matt Thomas updated from 0.8 to 0.800 at 07/03/2022, 20:02:18
+
+
+
+
+ft_pct for Matisse Thybulle updated from 0.72 to 0.720 at 07/03/2022, 20:02:29
+
+
+
+
+
+
+
+
+
+ft_pct for Rayjon Tucker updated from 0.75 to 0.750 at 07/03/2022, 20:02:48
+
+
+
+ft_pct for Denzel Valentine updated from 0.0 to 0.000 at 07/03/2022, 20:02:55
+
+
+
+ft_pct for Devin Vassell updated from 0.813 to 0.812 at 07/03/2022, 20:03:02
+steals for Devin Vassell updated from 53 to 54 at 07/03/2022, 20:03:02
+blocks for Devin Vassell updated from 37 to 36 at 07/03/2022, 20:03:02
+
+
+
+
+
+
+
+
+ft_pct for MJ Walker updated from 0.0 to 0.000 at 07/03/2022, 20:03:20
+
+
+ft_pct for Derrick Walton Jr. updated from 1.0 to 1.000 at 07/03/2022, 20:03:23
+
+ft_pct for Brad Wanamaker updated from 0.92 to 0.920 at 07/03/2022, 20:03:26
+
+
+
+
+ft_pct for Tremont Waters updated from 0.0 to 0.000 at 07/03/2022, 20:03:34
+
+
+ft_pct for Paul Watson updated from 0.5 to 0.500 at 07/03/2022, 20:03:39
+
+ft_pct for Quinndary Weatherspoon updated from 1.0 to 1.000 at 07/03/2022, 20:03:42
+
+ft_pct for Russell Westbrook updated from 0.67 to 0.670 at 07/03/2022, 20:03:45
+
+
+
+
+
+
+steals for Andrew Wiggins updated from 65 to 64 at 07/03/2022, 20:03:58
+
+
+
+
+ft_pct for Patrick Williams updated from 1.0 to 1.000 at 07/03/2022, 20:04:10
+
+
+ft_pct for Robert Williams III updated from 0.72 to 0.720 at 07/03/2022, 20:04:14
+
+ft_pct for D.J. Wilson updated from 0.8 to 0.800 at 07/03/2022, 20:04:17
+
+
+
+ft_pct for Cassius Winston updated from 1.0 to 1.000 at 07/03/2022, 20:04:24
+
+
+ft_pct for Robert Woodard II updated from 1.0 to 1.000 at 07/03/2022, 20:04:28
+
+
+ft_pct for Moses Wright updated from 0.0 to 0.000 at 07/03/2022, 20:04:32
+
+ft_pct for McKinley Wright IV updated from 0.0 to 0.000 at 07/03/2022, 20:04:34
+
+
+
+
+
+

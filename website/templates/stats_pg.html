@@ -1,0 +1,40 @@
+{% extends "base.html" %} {% block title %}Stats{% endblock %}
+{% block content %}
+<head>
+    <h1 align='center'>Stats (PG)</h1>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<script src="https://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script>
+<!-- Rounded switch -->
+<!-- <label class="toggle">
+    <span class="onoff">Totals</span>
+    <input type="checkbox" />
+    <span class="slider round"></span>
+  </label> -->
+       
+    <table class="sortable" border='1px solid', border-style='double'>
+        <colgroup>
+            <col style="background-color: #0f0">
+            <col span="2">
+          </colgroup>
+        <thead>
+            <tr>
+            {% for column in columns %}
+                <th class="header">{{ column }}</th>
+            {% endfor %}
+            </tr>
+          </thead>
+        <tbody>
+        {% for row in feed %}
+        <tr>
+          {% for item in row %} 
+          <td> {{ item }}</td>
+          {% endfor %}
+        </tr> 
+        {% endfor %}
+    </tbody>
+    </table>
+    <script src = "main.js"></script>
+
+{% endblock %}

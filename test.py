@@ -6,46 +6,32 @@ from datetime import datetime
 conn = sqlite3.connect('test_database.db') 
 c = conn.cursor()
 
-c.execute('''PRAGMA table_info(player_stats_2122);''')
-columns = [x[1] for x in c.fetchall()]
-print(columns)
+c.execute("DROP TABLE IF EXISTS pg_stats")
 
-print(float("%0.3f" % 10))
-
-c.execute('''SELECT * FROM player_stats_2122 AS ps WHERE ps.first_name || " " || ps.last_name = (?) || " " || (?);''', ('Armoni', 'Brooks',))
-row = c.fetchall()[0]
-print(row)
-
-
-
-# for i in range(1):
-#     most_recent_stats = pd.Series([1629638, 0, 'TOT', 23.0, 52, 19, 1322.0, 237, 633, 0.374, 95, 306, 0.31, 70, 97, 0.722, 36, 129, 165, 139, 41, 19, 85, 88, 639])
-
-#     most_recent_stats = [x if (type(x) != float or x.is_integer() == False) else int(x) for x in list(most_recent_stats)]
-#     print(most_recent_stats)
-
-
-    
-# conn = sqlite3.connect('test_database.db')
-# c = conn.cursor()
-
-# columns = c.execute("PRAGMA table_info(player_stats_2122)")
-# columns_query = [item[1] for item in columns.fetchall()]
-# print(columns_query)
-
-# c.execute("DROP TABLE IF EXISTS display_stats")
-# c.execute('''
-#     CREATE TABLE display_stats
-#     AS
-#     SELECT first_name AS "First Name", last_name AS "Last Name", team_abbr,
-#     age, games_played, games_started, minutes, fgm, fga,
-#     fg_pct, fg3m, fg3a, fg3_pct, ftm, fta, ft_pct, points AS "PTS",
-#     orebounds, drebounds, rebounds AS "REB", assists, steals, blocks, 
-#     turnovers, fouls 
-#     FROM player_stats_2122;''')
-
-
-# set_columns_query = c.execute('''PRAGMA table_info(display_stats)''').fetchall()
-# print(set_columns_query)
-
-# conn.close()
+c.execute('''
+CREATE TABLE pg_stats
+AS
+SELECT first_name AS "First Name", last_name AS "Last Name", team_abbr as "Team", age AS "Age", games_played AS "GP", games_started AS "GS",
+ROUND(CAST(minutes AS float(1))/CAST(games_played AS float(1)), 1) AS "MPG",
+ROUND(CAST(fgm AS float(1))/CAST(games_played AS float(1)), 1) AS "FGMPG",
+ROUND(CAST(fga AS float(1))/CAST(games_played AS float(1)), 1) AS "FGAPG",
+fg_pct AS "FG%",
+ROUND(CAST(fg3m AS float(1))/CAST(games_played AS float(1)), 1) AS "3MPG",
+ROUND(CAST(fg3a AS float(1))/CAST(games_played AS float(1)), 1) AS "3APG",
+fg3_pct AS "3FG%",
+ROUND(CAST(ftm AS float(1))/CAST(games_played AS float(1)), 1) AS "FTMPG", 
+ROUND(CAST(fta AS float(1))/CAST(games_played AS float(1)), 1) AS "FTAPG",
+ft_pct AS "FT%",
+ROUND(CAST(points AS float(1))/CAST(games_played AS float(1)), 1) AS "PPG",
+ROUND(CAST(orebounds AS float(1))/CAST(games_played AS float(1)), 1) AS "ORPG",
+ROUND(CAST(drebounds AS float(1))/CAST(games_played AS float(1)), 1) AS "DRPG",
+ROUND(CAST(rebounds AS float(1))/CAST(games_played AS float(1)), 1) AS "RPG",
+ROUND(CAST(assists AS float(1))/CAST(games_played AS float(1)), 1) AS "APG",
+ROUND(CAST(steals AS float(1))/CAST(games_played AS float(1)), 1) AS "SPG",
+ROUND(CAST(blocks AS float(1))/CAST(games_played AS float(1)), 1) AS "BPG", 
+ROUND(CAST(turnovers AS float(1))/CAST(games_played AS float(1)), 1) AS "TPG",
+ROUND(CAST(fouls AS float(1))/CAST(games_played AS float(1)), 1) AS "FPG" 
+FROM player_stats_2122;''')
+players_query = c.execute('''SELECT * FROM pg_stats''').fetchall()
+for player in players_query:
+    print(player)

@@ -1,17 +1,19 @@
-{% extends "base.html" %} {% block title %}Stats{% endblock %}
-{% block content %}
+<!DOCTYPE html>
+
+<!-- {% extends "base.html" %} {% block title %}Stats{% endblock %} -->
+<!-- {% block content %} -->
 <head>
+    <link rel="stylesheet" href="\style.css">
     <h1 align='center'>Stats (PG)</h1>
-    <link rel="stylesheet" href="style.css">
+    
 </head>
 
 <script src="https://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script>
 <!-- Rounded switch -->
-<!-- <label class="toggle">
-    <span class="onoff">Totals</span>
-    <input type="checkbox" />
-    <span class="slider round"></span>
-  </label> -->
+<label class="switch">
+  <input type="checkbox">
+  <span class="slider round"></span>
+</label>
        
     <table class="sortable" border='1px solid', border-style='double'>
         <colgroup>
@@ -35,6 +37,6 @@
         {% endfor %}
     </tbody>
     </table>
-    <script src = "main.js"></script>
+    <!-- <script src = "main.js"></script> -->
 
-{% endblock %}
+<!-- {% endblock %} -->

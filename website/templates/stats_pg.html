@@ -1,20 +1,24 @@
-<!DOCTYPE html>
-
-<!-- {% extends "base.html" %} {% block title %}Stats{% endblock %} -->
-<!-- {% block content %} -->
+{% extends "base.html" %} {% block title %}Stats{% endblock %} -->
+{% block content %}
 <head>
-    <link rel="stylesheet" href="\style.css">
-    <h1 align='center'>Stats (PG)</h1>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <h1 align='center'>Stats</h1>
     
 </head>
 
-<script src="https://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script>
 <!-- Rounded switch -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<form>
 <label class="switch">
-  <input type="checkbox">
-  <span class="slider round"></span>
+  <input type="checkbox" id="myswitch" checked="true">
+  <div class="slider round">
+    <span class="off">Totals</span>
+    <span class="on">Per Game</span>
+  </div>
 </label>
-       
+</form>
+
+<div id="pg">
     <table class="sortable" border='1px solid', border-style='double'>
         <colgroup>
             <col style="background-color: #0f0">
@@ -22,6 +26,7 @@
           </colgroup>
         <thead>
             <tr>
+
             {% for column in columns %}
                 <th class="header">{{ column }}</th>
             {% endfor %}
@@ -37,6 +42,32 @@
         {% endfor %}
     </tbody>
     </table>
-    <!-- <script src = "main.js"></script> -->
+  </div>
+<div id="totals">
+  <table class="sortable" border='1px solid', border-style='double'>
+    <colgroup>
+        <col style="background-color: #0f0">
+        <col span="2">
+      </colgroup>
+    <thead>
+        <tr>
+        {% for column in columns2 %}
+            <th class="header">{{ column }}</th>
+        {% endfor %}
+        </tr>
+      </thead>
+    <tbody>
+    {% for row in feed2 %}
+    <tr>
+      {% for item in row %} 
+      <td> {{ item }}</td>
+      {% endfor %}
+    </tr> 
+    {% endfor %}
+</tbody>
+</table>
+  </div>
 
-<!-- {% endblock %} -->
+
+
+{% endblock %}

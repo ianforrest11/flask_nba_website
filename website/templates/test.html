@@ -1,12 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <h1 align='center'>Test</h1>
+    
 </head>
-<body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <form>
+    <label class="switch">
+          <input type="checkbox" id="toggle" checked="false"/>
+          <div class="slider round"></div>
+      </label>
+  </form>
+  
+  <div id="stats1">
+    stats 1 content
+  </div>
+  <div id="stats2">
+    stats 2 content
+  </div>
 
-<h1>This is a heading</h1>
-<p>This is a paragraph.</p>
-
-</body>
+  <script
+  type="text/javascript"
+  src="{{ url_for('static', filename='index.js') }}"
+></script>
 </html>

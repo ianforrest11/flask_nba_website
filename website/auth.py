@@ -67,8 +67,8 @@ def sign_up():
 
     return render_template("sign_up.html", user = current_user)
 
-@auth.route('/stats_pg', methods = ['GET'])
-def stats_pg():
+@auth.route('/stats', methods = ['GET', 'POST'])
+def stats():
 
     user = User.query.filter_by(email='ian@gmail.com').first()
     
@@ -127,38 +127,5 @@ def stats_pg():
     conn.close()
 
 
-    return render_template('stats_pg.html', feed=players_query, user = user, columns = columns_query,
+    return render_template('stats.html', feed=players_query, user = user, columns = columns_query,
                             feed2 = players_query_totals, columns2 = columns_query_total)
-
-@auth.route('/stats', methods = ['GET'])
-def stats():
-
-    user = User.query.filter_by(email='ian@gmail.com').first()
-    
-    conn = sqlite3.connect('test_database.db')
-    c = conn.cursor()
-
-    c.execute("DROP TABLE IF EXISTS display_stats")
-
-    c.execute('''
-    CREATE TABLE display_stats
-    AS
-    SELECT first_name AS "First Name", last_name AS "Last Name", team_abbr as "Team",
-    age AS "Age", games_played AS "GP", games_started AS "GS", minutes AS "MIN", fgm AS "FGM", fga AS "FGA",
-    fg_pct AS "FG%", fg3m AS "3FGM", fg3a AS "3FGA", fg3_pct AS "3FG%", ftm AS "FTM", fta AS "FTA", ft_pct AS "FT%", points AS "PTS",
-    orebounds AS "OREB", drebounds AS "DREB", rebounds AS "REB", assists AS "AST", steals AS "STL", blocks AS "BLK", 
-    turnovers AS "TOV", fouls AS "PF" 
-    FROM player_stats_2122;''')
-    players_query = c.execute('''SELECT * FROM display_stats''').fetchall()
-
-    columns = c.execute("PRAGMA table_info(display_stats)")
-    columns_query = [item[1] for item in columns.fetchall()]
-
-    conn.close()
-
-
-    return render_template('stats.html', feed=players_query, user = user, columns = columns_query)
-
-@auth.route('/test', methods = ['GET'])
-def test():
-    return render_template('test.html')

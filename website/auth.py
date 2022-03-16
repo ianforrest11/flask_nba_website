@@ -129,3 +129,7 @@ def stats():
 
     return render_template('stats.html', feed=players_query, user = user, columns = columns_query,
                             feed2 = players_query_totals, columns2 = columns_query_total)
+@auth.route('/test', methods = ['GET'])
+def test():
+
+    return render_template("test.html")

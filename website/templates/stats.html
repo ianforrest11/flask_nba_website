@@ -11,7 +11,7 @@
 <script src="https://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script>
 <form>
 <label class="switch">
-  <input type="checkbox" id="myswitch" checked="true">
+  <input type="checkbox" id="myswitch" checked="false">
   <div class="slider round">
     <span class="off">Totals</span>
     <span class="on">Per Game</span>
@@ -20,10 +20,15 @@
 </form>
 <button type='submit' class='btn btn-primary'>Add Players</button>
 <br>
-<input type="text" placeholder="Search">
+<div class="search-container">
+  <form role="search" id="form">
+    <input type="text" onkeyup="searchPlayers()" placeholder="Search.." name="query" id="query" title="Type in a name">
+    <button type="submit"><i class="fa fa-search"></i></button>
+  </form>
+</div>
 <br>
 <div id="pg">
-    <table class="sortable" border='1px solid', border-style='double'>
+    <table class="sortable" border='1px solid', border-style='double' id="playerTable">
         <thead>
             <tr>
 
@@ -39,14 +44,14 @@
           {% for item in row %} 
           <td> {{ item }}</td>
           {% endfor %}
-          <td><input type="checkbox" id="add-player" />&nbsp;</td>
+          <td><input type="checkbox" id="add-player-avg-{{ loop.index0 }}" />&nbsp;</td>
         </tr> 
         {% endfor %}
     </tbody>
     </table>
   </div>
 <div id="totals">
-  <table class="sortable" border='1px solid', border-style='double'>
+  <table class="sortable" border='1px solid', border-style='double' id="playertable2">
     <thead>
         <tr>
         {% for column in columns2 %}
@@ -61,7 +66,7 @@
       {% for item in row %} 
       <td> {{ item }}</td>
       {% endfor %}
-      <td><input type="checkbox" id="add-player" />&nbsp;</td>
+      <td><input type="checkbox" id="add-player-total-{{ loop.index0 }}"/>&nbsp;</td>
     </tr> 
     {% endfor %}
 </tbody>

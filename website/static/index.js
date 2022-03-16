@@ -9,6 +9,7 @@ function deleteNote(noteId) {
 
 
 $(function() {
+    $("#stats2").hide();
     $("#toggle").click(function() {
         if ($(this).is(":checked")) {
         $("#stats1").show();
@@ -21,7 +22,9 @@ $(function() {
     });
 
 $(function() {
+    $("#totals").hide();
     $("#myswitch").click(function() {
+
         if ($(this).is(":checked")) {
         $("#totals").show();
         $("#pg").hide();
@@ -31,3 +34,43 @@ $(function() {
         }
     });
     });
+
+
+function searchPlayers() {
+    var input, filter, table, tr, td, i, txtValue;
+    input = document.getElementById("query");
+    filter = input.value.toUpperCase();
+    table = document.getElementById("playerTable");
+    tr = table.getElementsByTagName("tr");
+    for (i = 0; i < tr.length; i++) {
+        td_first_name = tr[i].getElementsByTagName("td")[0];
+        td_last_name = tr[i].getElementsByTagName("td")[1];
+        if (td_first_name || td_last_name) {
+        txtValue = td_first_name.textContent || td_first_name.innerText;
+        txtValue_last = td_last_name.textContent || td_last_name.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1 || txtValue_last.toUpperCase().indexOf(filter) > -1) {
+            tr[i].style.display = "";
+        } else {
+            tr[i].style.display = "none";
+        }
+        }       
+    }
+    table = document.getElementById("playertable2")
+    tr = table.getElementsByTagName("tr"); 
+    for (i = 0; i < tr.length; i++) {
+        td_first_name = tr[i].getElementsByTagName("td")[0];
+        td_last_name = tr[i].getElementsByTagName("td")[1];
+        if (td_first_name || td_last_name) {
+        txtValue = td_first_name.textContent || td_first_name.innerText;
+        txtValue_last = td_last_name.textContent || td_last_name.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1 || txtValue_last.toUpperCase().indexOf(filter) > -1) {
+            tr[i].style.display = "";
+        } else {
+            tr[i].style.display = "none";
+        }
+        }       
+    }
+    }
+
+const cb = document.querySelector('#add-player-average-1');
+console.log(cb.checked);

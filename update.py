@@ -228,7 +228,6 @@ for i in range(number_of_rows):
                         error_file.write('player: ' + first_name + ' ' + last_name + '\n')
                         error_file.write('old stats: ' + str(row) + '\n')
                         error_file.write('new stats: ' + str(up_to_date_stats) + '\n')
-                        error_file.write('sql cmd: '+ sql_command + '\n')
                         error_file.write(str(traceback.print_exc()) + '\n')
                         error_file.write(str(e) + '\n\n')        
                     error_file.close()

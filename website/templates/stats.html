@@ -3,8 +3,6 @@
 <head>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <h1 align='center'>Stats</h1>
-    <input type = "button" value = "Check" onclick = "Validate()" />
-    
 </head>
 
 <!-- Rounded switch -->
@@ -28,6 +26,8 @@
   </form>
 </div>
 <br>
+<input type = "button" value = "Check" onclick = "Validate()" />
+<br>
 <div id="pg">
     <table class="sortable" border='1px solid', border-style='double' id="playerTable">
         <thead>
@@ -45,7 +45,7 @@
           {% for item in row %} 
           <td> {{ item }}</td>
           {% endfor %}
-          <td><input type="checkbox" id="add-player-avg-{{ loop.index0 }}" />&nbsp;</td>
+          <td><input type="checkbox" id="add-player-avg-{{ loop.index0 }}"/>&nbsp;</td>
         </tr> 
         {% endfor %}
     </tbody>

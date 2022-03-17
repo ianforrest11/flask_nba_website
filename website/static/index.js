@@ -72,27 +72,54 @@ function searchPlayers() {
     }
     }
 
-    function Validate() {
-        var checked = 0;
- 
-        //Reference the Table.
-        var tblPlayers1 = document.getElementById("playertable");
- 
-        //Reference all the CheckBoxes in Table.
-        var chks = tblPlayers1.getElementsByTagName("INPUT");
- 
-        //Loop and count the number of checked CheckBoxes.
-        for (var i = 0; i < chks.length; i++) {
-            if (chks[i].checked) {
-                checked++;
-            }
+function validate(){
+    var remember = document.getElementById(this.id);
+    if (remember.checked){
+        alert("checked") ;
+    }else{
+        alert("You didn't check it! Let me check it for you.")
+    }
+}
+
+function Validate() {
+    var checked = 0;
+
+    //Reference the Table.
+    var tblPlayers1 = document.getElementById("playertable");
+
+    //Reference all the CheckBoxes in Table.
+    var chks = tblPlayers1.getElementsByTagName("INPUT");
+
+    //Loop and count the number of checked CheckBoxes.
+    for (var i = 0; i < chks.length; i++) {
+        if (chks[i].checked) {
+            checked++;
         }
- 
-        if (checked > 0) {
-            alert(checked + " CheckBoxe(s) are checked.");
-            return true;
-        } else {
-            alert("Please select CheckBoxe(s).");
-            return false;
-        }
-    };
+    }
+
+    if (checked > 0) {
+        alert(checked + " CheckBoxe(s) are checked.");
+        return true;
+    } else {
+        alert("Please select CheckBoxe(s).");
+        return false;
+    }
+};
+
+// $("input[type=checkbox]").each(function() {
+//     var elem = $(this);
+//     if (elem.is(":checked")) {
+//         alert("checked")
+//        // Item is checked
+//     }
+// })
+
+$('input[type=checkbox').on('change', function(){
+    alert('change')
+    // var id = $(this).prop('id');
+    // if (id == 'cost-one' || id == 'cost-three') {
+    //     // Make sure the two have opposite values:
+    //     var other = id == 'cost-one' ? 'cost-three' : 'cost-one';
+    //     $('#'+other).prop("checked", !$(this).prop("checked"));
+    // }
+});

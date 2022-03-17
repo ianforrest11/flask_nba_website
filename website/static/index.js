@@ -7,7 +7,7 @@ function deleteNote(noteId) {
     });
 }
 
-
+//test function
 $(function() {
     $("#stats2").hide();
     $("#toggle").click(function() {
@@ -21,6 +21,7 @@ $(function() {
     });
     });
 
+//function to hide and show tables based on which view is selected
 $(function() {
     $("#totals").hide();
     $("#myswitch").click(function() {
@@ -116,10 +117,37 @@ function Validate() {
 
 $('input[type=checkbox').on('change', function(){
     alert('change')
-    // var id = $(this).prop('id');
-    // if (id == 'cost-one' || id == 'cost-three') {
-    //     // Make sure the two have opposite values:
-    //     var other = id == 'cost-one' ? 'cost-three' : 'cost-one';
-    //     $('#'+other).prop("checked", !$(this).prop("checked"));
-    // }
+    // constants
+    var id = $(this).prop('id');
+    var elem = $(this);
+
+    // if avg box gets checked
+    var pattern1 = /add-player-avg-/;
+    var suffix1 = this.id.match(/\d+/);
+
+    //returns true or false...
+    var exists1 = pattern1.test(id);
+    if ((exists1) && (elem.is(":checked"))) {
+        alert('yasss')
+        $('#add-player-total-' + suffix1).prop('checked', true)
+    //true statement, do whatever
+    } else if ((exists1) && (elem.not(":checked"))) {
+        alert('nahhh')
+        $('#add-player-total-' + suffix1).prop('checked', false)
+    }
+
+    // if totals box gets checked
+    var pattern2 = /add-player-total-/;
+    var suffix2 = this.id.match(/\d+/);
+
+    //returns true or false...
+    var exists2 = pattern2.test(id);
+    if ((exists2)  && (elem.is(":checked"))) {
+        alert('yasss')
+        $('#add-player-avg-' + suffix2).prop('checked', true)
+    //true statement, do whatever
+    } else if ((exists2) && (elem.not(":checked"))) {
+        alert('nahhh')
+        $('#add-player-avg-' + suffix2).prop('checked', false)
+    }
 });

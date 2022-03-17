@@ -22,19 +22,20 @@ $(function() {
     });
 
 //function to hide and show tables based on which view is selected
-$(function() {
+// $(function() {
+$("#pg").hide();
+$("#myswitch").on('change', function() {
+    $('#pg').show();
+    $('#totals').hide();
+    if ($(this).is(":checked")) {
+    $("#pg").show();
     $("#totals").hide();
-    $("#myswitch").click(function() {
-
-        if ($(this).is(":checked")) {
-        $("#totals").show();
-        $("#pg").hide();
-        } else {
-        $("#totals").hide();
-        $("#pg").show();
-        }
-    });
-    });
+    } else {
+    $("#pg").hide();
+    $("#totals").show();
+    }
+});
+// });
 
 
 function searchPlayers() {
@@ -115,7 +116,7 @@ function Validate() {
 //     }
 // })
 
-$('input[type=checkbox').on('change', function(){
+$('input[type=checkbox]').on('change', function(){
     alert('change')
     // constants
     var id = $(this).prop('id');

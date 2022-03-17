@@ -10,7 +10,7 @@
 <script src="https://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script>
 <form>
 <label class="switch">
-  <input type="checkbox" id="myswitch" checked="false">
+  <input type="checkbox" id="myswitch">
   <div class="slider round">
     <span class="off">Totals</span>
     <span class="on">Per Game</span>
@@ -36,7 +36,9 @@
             {% for column in columns %}
                 <th class="header">{{ column }}</th>
             {% endfor %}
+            {% if user.is_authenticated %}
             <th class="header">Add</th>
+            {% endif %}
             </tr>
           </thead>
         <tbody>
@@ -45,7 +47,9 @@
           {% for item in row %} 
           <td> {{ item }}</td>
           {% endfor %}
+          {% if user.is_authenticated %}
           <td><input type="checkbox" id="add-player-avg-{{ loop.index0 }}"/>&nbsp;</td>
+          {% endif %}
         </tr> 
         {% endfor %}
     </tbody>
@@ -58,7 +62,9 @@
         {% for column in columns2 %}
             <th class="header">{{ column }}</th>
         {% endfor %}
+        {% if user.is_authenticated %}
         <th class="header">Add</th>
+        {% endif %}
         </tr>
       </thead>
     <tbody>
@@ -67,7 +73,9 @@
       {% for item in row %} 
       <td> {{ item }}</td>
       {% endfor %}
+      {% if user.is_authenticated %}
       <td><input type="checkbox" id="add-player-total-{{ loop.index0 }}"/>&nbsp;</td>
+      {% endif %}
     </tr> 
     {% endfor %}
 </tbody>

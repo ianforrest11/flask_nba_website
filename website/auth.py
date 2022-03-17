@@ -69,8 +69,6 @@ def sign_up():
 
 @auth.route('/stats', methods = ['GET', 'POST'])
 def stats():
-
-    user = User.query.filter_by(email='ian@gmail.com').first()
     
     conn = sqlite3.connect('test_database.db')
     c = conn.cursor()
@@ -127,8 +125,10 @@ def stats():
     conn.close()
 
 
-    return render_template('stats.html', feed=players_query, user = user, columns = columns_query,
+    return render_template('stats.html', feed=players_query, user = current_user, columns = columns_query,
                             feed2 = players_query_totals, columns2 = columns_query_total)
+
+                            
 @auth.route('/test', methods = ['GET'])
 def test():
 

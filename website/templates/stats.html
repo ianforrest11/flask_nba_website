@@ -8,25 +8,29 @@
 <!-- Rounded switch -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="https://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script>
-<form>
-<label class="switch">
-  <input type="checkbox" id="myswitch">
-  <div class="slider round">
-    <span class="off">Totals</span>
-    <span class="on">Per Game</span>
+
+<div class="container">
+  <div class="left">
+    <form>
+    <label class="switch">
+      <input type="checkbox" id="myswitch">
+      <div class="slider round">
+        <span class="off">Totals</span>
+        <span class="on">Per Game</span>
+      </div>
+    </label>
+    </form>
   </div>
-</label>
-</form>
-<button type='submit' class='btn btn-primary'>Add Players</button>
-<br>
-<div class="search-container">
-  <form role="search" id="form">
-    <input type="text" onkeyup="searchPlayers()" placeholder="Search.." name="query" id="query" title="Type in a name">
-    <button type="submit"><i class="fa fa-search"></i></button>
-  </form>
+  <div class="search-container" class="right">
+    <form role="search" id="form">
+      <input type="text" onkeyup="searchPlayers()" placeholder="Search.." name="query" id="query" title="Type in a name">
+    </form>
+  </div>
+  <div class="center">
+    <button type='submit' class='btn btn-primary'>Add Players</button>
+  </div>
+
 </div>
-<br>
-<input type = "button" value = "Check" onclick = "Validate()" />
 <br>
 <div id="pg">
     <table class="sortable" border='1px solid', border-style='double' id="playerTable">

@@ -92,8 +92,11 @@ input:checked + .slider .off
   border-radius: 50%;
 }
 
-#container{
+.container1 {
   width:100%;
+}
+
+.stat-control-container {
   display:flex;
   justify-content:space-between;
 }

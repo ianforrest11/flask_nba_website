@@ -23,18 +23,19 @@
     </form>
   </div>
   <div class="search-container" class="right">
-    <form role="search" id="form">
+    <form role="search" id="search">
       <input type="text" onkeyup="searchPlayers()" placeholder="Search.." name="query" id="query" title="Type in a name">
     </form>
   </div>
   <div class="center">
-    <button type='submit' class='btn btn-primary'>Add Players</button>
+      <button name="add-players-btn" id="add-players-btn" type='submit' class='btn btn-primary'>Add Players</button>
   </div>
 </div>
 </div>
 <br>
+<form method="POST" id="playersform" name="playersform">
 <div id="pg">
-    <table class="sortable" border='1px solid', border-style='double' id="playerTable">
+    <table class="sortable" border='1px solid', border-style='double' id="playerTable" name="playerTable">
         <thead>
             <tr>
 
@@ -53,7 +54,7 @@
           <td> {{ item }}</td>
           {% endfor %}
           {% if user.is_authenticated %}
-          <td><input type="checkbox" id="add-player-avg-{{ loop.index0 }}"/>&nbsp;</td>
+          <td><input class="select-checkbox" name='select-checkbox' type="checkbox" id="add-player-avg-{{ loop.index0 }}"/>&nbsp;</td>
           {% endif %}
         </tr> 
         {% endfor %}
@@ -79,13 +80,18 @@
       <td> {{ item }}</td>
       {% endfor %}
       {% if user.is_authenticated %}
-      <td><input type="checkbox" id="add-player-total-{{ loop.index0 }}"/>&nbsp;</td>
+      <td><input class="select-checkbox" name='select-checkbox' type="checkbox" id="add-player-total-{{ loop.index0 }}"/>&nbsp;</td>
       {% endif %}
     </tr> 
     {% endfor %}
 </tbody>
 </table>
   </div>
+</form>
+<div id="user-staging-table">
+
+
+</div>
 
 
 

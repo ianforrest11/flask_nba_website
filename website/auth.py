@@ -1,16 +1,17 @@
 from flask import Blueprint, render_template, request, flash, redirect, url_for
 from markupsafe import re
-from .models import Player, User
+from .models import Player, User, User_Player
 from werkzeug.security import generate_password_hash, check_password_hash
 from . import db
 from flask_login import login_user, login_required, logout_user, current_user
 import sqlite3
+import sys
 
 auth = Blueprint('auth', __name__)
 
 @auth.route('/login', methods = ['GET', 'POST'])
 def login():
-    if request.method == 'POST':
+    if request.method == 'POST' and 'notesform' in request.form:
         email = request.form.get('email')
         password = request.form.get('password')
 
@@ -69,6 +70,7 @@ def sign_up():
 
 @auth.route('/stats', methods = ['GET', 'POST'])
 def stats():
+    print("hello world", file=sys.stderr)
     
     conn = sqlite3.connect('test_database.db')
     c = conn.cursor()
@@ -124,11 +126,23 @@ def stats():
 
     conn.close()
 
+    # if request.method == 'POST':
+    #     players = request.form.get('playersform')
+
+    #     for player in players:
+    #         new_player = User_Player(data=player, user_id= current_user.id)
+    #         db.session.add(new_player)
+    #         db.session.commit()
+
+    #     flash('players added', category='success')
+
+
+
 
     return render_template('stats.html', feed=players_query, user = current_user, columns = columns_query,
                             feed2 = players_query_totals, columns2 = columns_query_total)
 
-                            
+
 @auth.route('/test', methods = ['GET'])
 def test():
 

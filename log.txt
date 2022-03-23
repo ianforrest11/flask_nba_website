@@ -1,0 +1,132 @@
+
+batch complete at 03/18/2022, 12:45:35
+
+batch complete at 03/18/2022, 14:45:32
+
+batch complete at 03/18/2022, 16:45:12
+
+batch complete at 03/18/2022, 18:45:07
+
+batch complete at 03/18/2022, 20:45:10
+games_played for Moses Brown updated from 28 to 29 at 03/18/2022, 22:45:07
+minutes for Moses Brown updated from 182 to 187 at 03/18/2022, 22:45:07
+drebounds for Moses Brown updated from 47 to 48 at 03/18/2022, 22:45:07
+rebounds for Moses Brown updated from 63 to 64 at 03/18/2022, 22:45:07
+fouls for Moses Brown updated from 32 to 33 at 03/18/2022, 22:45:07
+
+batch complete at 03/18/2022, 22:45:07
+
+batch complete at 03/19/2022, 00:45:09
+
+batch complete at 03/19/2022, 02:45:32
+
+batch complete at 03/19/2022, 04:45:34
+
+batch complete at 03/19/2022, 06:45:32
+
+batch complete at 03/19/2022, 08:45:35
+
+batch complete at 03/19/2022, 10:45:32
+
+batch complete at 03/19/2022, 12:45:29
+
+batch complete at 03/19/2022, 14:45:31
+
+batch complete at 03/19/2022, 16:45:33
+
+batch complete at 03/19/2022, 18:45:28
+
+batch complete at 03/19/2022, 20:45:28
+games_played for Moses Brown updated from 29 to 30 at 03/19/2022, 22:45:25
+minutes for Moses Brown updated from 187 to 194 at 03/19/2022, 22:45:25
+fga for Moses Brown updated from 57 to 62 at 03/19/2022, 22:45:25
+fg_pct for Moses Brown updated from 0.561 to 0.516 at 03/19/2022, 22:45:25
+ftm for Moses Brown updated from 27 to 28 at 03/19/2022, 22:45:25
+fta for Moses Brown updated from 43 to 47 at 03/19/2022, 22:45:25
+ft_pct for Moses Brown updated from 0.628 to 0.596 at 03/19/2022, 22:45:25
+points for Moses Brown updated from 91 to 92 at 03/19/2022, 22:45:25
+orebounds for Moses Brown updated from 16 to 21 at 03/19/2022, 22:45:25
+rebounds for Moses Brown updated from 64 to 69 at 03/19/2022, 22:45:25
+steals for Moses Brown updated from 5 to 6 at 03/19/2022, 22:45:25
+blocks for Moses Brown updated from 10 to 11 at 03/19/2022, 22:45:25
+
+batch complete at 03/19/2022, 22:45:26
+
+batch complete at 03/20/2022, 00:48:20
+
+batch complete at 03/20/2022, 02:45:49
+
+batch complete at 03/20/2022, 04:45:51
+
+batch complete at 03/20/2022, 06:45:27
+
+batch complete at 03/20/2022, 08:45:26
+
+batch complete at 03/20/2022, 10:45:27
+
+batch complete at 03/20/2022, 12:45:27
+
+batch complete at 03/20/2022, 14:45:28
+
+batch complete at 03/20/2022, 16:45:28
+
+batch complete at 03/20/2022, 18:45:29
+
+batch complete at 03/20/2022, 20:45:27
+
+batch complete at 03/20/2022, 22:45:26
+
+batch complete at 03/21/2022, 00:46:09
+
+batch complete at 03/21/2022, 02:45:27
+
+batch complete at 03/21/2022, 04:45:27
+
+batch complete at 03/21/2022, 06:45:26
+
+batch complete at 03/21/2022, 08:45:26
+
+batch complete at 03/21/2022, 10:45:26
+
+batch complete at 03/21/2022, 12:45:11
+
+batch complete at 03/21/2022, 15:45:30
+
+batch complete at 03/21/2022, 18:45:18
+
+batch complete at 03/21/2022, 20:45:08
+games_played for Moses Brown updated from 30 to 31 at 03/21/2022, 22:45:07
+minutes for Moses Brown updated from 194 to 198 at 03/21/2022, 22:45:07
+fgm for Moses Brown updated from 32 to 33 at 03/21/2022, 22:45:07
+fga for Moses Brown updated from 62 to 63 at 03/21/2022, 22:45:07
+fg_pct for Moses Brown updated from 0.516 to 0.524 at 03/21/2022, 22:45:07
+ftm for Moses Brown updated from 28 to 29 at 03/21/2022, 22:45:07
+fta for Moses Brown updated from 47 to 50 at 03/21/2022, 22:45:07
+ft_pct for Moses Brown updated from 0.596 to 0.580 at 03/21/2022, 22:45:07
+points for Moses Brown updated from 92 to 95 at 03/21/2022, 22:45:07
+drebounds for Moses Brown updated from 48 to 49 at 03/21/2022, 22:45:07
+rebounds for Moses Brown updated from 69 to 70 at 03/21/2022, 22:45:07
+blocks for Moses Brown updated from 11 to 12 at 03/21/2022, 22:45:07
+
+batch complete at 03/21/2022, 22:45:08
+
+batch complete at 03/22/2022, 00:45:09
+
+batch complete at 03/22/2022, 02:45:09
+
+batch complete at 03/22/2022, 04:45:07
+
+batch complete at 03/22/2022, 06:45:07
+
+batch complete at 03/22/2022, 08:45:10
+
+batch complete at 03/22/2022, 10:45:08
+
+batch complete at 03/22/2022, 12:45:08
+blocks for Moses Brown updated from 12 to 11 at 03/22/2022, 15:45:20
+
+batch complete at 03/22/2022, 15:45:21
+
+batch complete at 03/22/2022, 17:45:27
+
+batch complete at 03/22/2022, 19:45:17

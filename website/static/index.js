@@ -76,13 +76,13 @@ function searchPlayers() {
     }
     }
 
+var values = new Array();
 $('input[type=checkbox]').on('change', function(){
     
     // constants
     var id = $(this).prop('id');
     // make sure function does not affect totals/per-game switch
     if (id.toLowerCase().indexOf("myswitch") === -1) {
-        alert('change')
         var elem = $(this);
 
         // if avg box gets checked
@@ -92,27 +92,86 @@ $('input[type=checkbox]').on('change', function(){
         //returns true or false...
         var exists1 = pattern1.test(id);
         if ((exists1) && (elem.is(":checked"))) {
-            alert('yasss')
             $('#add-player-total-' + suffix1).prop('checked', true)
+            var values1 = Array($("input[name='select-checkbox']:checked").closest("td").siblings("td").text())
+            // $.each($("input[name='select-checkbox']:checked").closest("td").siblings("td"),
+            //     function () {
+            //             values.push($(this).text());
+            //     });
+            // alert("val---" + values.join(", "));
+            alert(values1)
+            var values1_as_string = JSON.stringify(values1);
+            var contains = values.some(function(ele){
+                return JSON.stringify(ele) === values1_as_string;
+              });
+
+            values.push(values1)
+
+
+
         //true statement, do whatever
         } else if ((exists1) && (elem.not(":checked"))) {
-            alert('nahhh')
             $('#add-player-total-' + suffix1).prop('checked', false)
         }
     }
 
-    // if totals box gets checked
-    var pattern2 = /add-player-total-/;
-    var suffix2 = this.id.match(/\d+/);
+        // if totals box gets checked
+        var pattern2 = /add-player-total-/;
+        var suffix2 = this.id.match(/\d+/);
 
-    //returns true or false...
-    var exists2 = pattern2.test(id);
-    if ((exists2)  && (elem.is(":checked"))) {
-        alert('yasss')
-        $('#add-player-avg-' + suffix2).prop('checked', true)
-    //true statement, do whatever
-    } else if ((exists2) && (elem.not(":checked"))) {
-        alert('nahhh')
-        $('#add-player-avg-' + suffix2).prop('checked', false)
+        //returns true or false...
+        var exists2 = pattern2.test(id);
+        if ((exists2)  && (elem.is(":checked"))) {
+            $('#add-player-avg-' + suffix2).prop('checked', true)
+            var values2 = Array($("input[name='select-checkbox']:checked").closest("td").siblings("td").text())
+            // $.each($("input[name='select-checkbox']:checked").closest("td").siblings("td"),
+            //     function () {
+            //             values.push($(this).text());
+            //     });
+            alert(values2)
+            var values2_as_string = JSON.stringify(values2);
+            var contains = values.some(function(ele){
+                return JSON.stringify(ele) === values2_as_string;
+              });
+            values.push(values2)
+
+        //true statement, do whatever
+        } else if ((exists2) && (elem.not(":checked"))) {
+            $('#add-player-avg-' + suffix2).prop('checked', false)
+            
+        }
     }
+    );
+
+
+
+$(document).ready(function () {
+    $('#add-players-btn').click(function (e) {
+        var $form = $('#playersform');
+        var $checkbox = $('.select-checkbox');
+        // alert(values)
+        
+        if (!$checkbox.is(':checked')) {
+            alert('Please select !');
+            $('#tipdivcontent').css("display", "block");
+            e.preventDefault();
+        }
+        else
+            var values_final = values[values.length -1]
+            // alert("val---" + values.join(", "));
+            // alert(values.length)
+            alert("final" + values_final)
+            alert(values)
+            $form.submit();
+            
+        
+    });            
 });
+
+// var values = new Array();
+// $.each($("input[name='select-checkbox']:checked").closest("td").siblings("td"),
+//        function () {
+//             values.push($(this).text());
+//        });
+
+//    alert("val---" + values.join(", "));

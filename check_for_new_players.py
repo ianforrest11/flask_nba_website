@@ -36,9 +36,20 @@ for player in nba_players:
     id = player['id']
 
     player_career_stats = playercareerstats.PlayerCareerStats(player_id=id).get_data_frames()[0]
+    
+    # try to get most recent season for players
     try:
         most_recent_season = player_career_stats.iloc[-1]
+    
+    # exception if dataframe empty
+    except:
+        print(name, ' error')
+        print(player_career_stats)
+        print('\n')
+        # end iteration of loop and move on to next person
+        continue
 
+    try:
         if most_recent_season['SEASON_ID'] == '2021-22' and id not in nba_player_ids:
             print(name, "not in database.  Adding...")
             print(most_recent_season)

@@ -160,24 +160,39 @@ $(document).ready(function () {
         }
         else
             var values_final = values[values.length -1]
-            var values_final_split = JSON.stringify(values_final.toString().split(' '))
+            var values_final_split = JSON.stringify({'data':values_final.toString()})
+            alert(values_final_split)
+
+            const URL = '/'
+            const xhr = new XMLHttpRequest();
+            xhr.open('POST', URL);
+            xhr.send(values_final_split);
+            alert("working")
+
             const chunkSize = 25;
-            for (let i = 1; i < values_final_split.length; i += chunkSize) {
-                const chunk = values_final_split.slice(i, i + chunkSize);
-                alert(chunk)
-            }
+            // for (let i = 1; i < values_final_split.length; i += chunkSize) {
+            //     const chunk = values_final_split.slice(i, i + chunkSize);
+            //     alert(chunk)
+            // }
             // $.ajax({
             //     type: "POST",
             //     url: "/",
             //     data: values_final_split,
-            //     dataType: 'json',
-            //     success: function(results){
-            //         console.log(results)
+            //     contentType: "application/json; charset=utf-8",
+            //     dataType: "json",
+            //     success: function (data) {
+            //         alert(JSON.stringify(data));
             //     }
             // });
             // // $.post("/", {"myData": values_final_split})
             // $form.submit();
             
+function doWork() {
+    $.post("/", values_final_split, function(reply){
+        $('#ajax_result').text(reply);
+    });
+        event.preventDefault();
+}
         
     });            
 });

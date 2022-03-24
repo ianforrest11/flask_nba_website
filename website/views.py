@@ -10,6 +10,8 @@ views = Blueprint('views', __name__)
 @views.route('/', methods=['GET','POST'])
 @login_required
 def home():
+    print(request.files['myData'])
+    # print(jsonify({'somedata': 'data'}))
     if request.method == 'POST':
         note = request.form.get('note')
 

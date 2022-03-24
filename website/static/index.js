@@ -78,7 +78,6 @@ function searchPlayers() {
 
 var values = new Array();
 $('input[type=checkbox]').on('change', function(){
-    
     // constants
     var id = $(this).prop('id');
     // make sure function does not affect totals/per-game switch
@@ -112,6 +111,8 @@ $('input[type=checkbox]').on('change', function(){
         //true statement, do whatever
         } else if ((exists1) && (elem.not(":checked"))) {
             $('#add-player-total-' + suffix1).prop('checked', false)
+            var values1 = Array($("input[name='select-checkbox']:checked").closest("td").siblings("td").text())
+            values.push(values1)
         }
     }
 
@@ -138,9 +139,10 @@ $('input[type=checkbox]').on('change', function(){
         //true statement, do whatever
         } else if ((exists2) && (elem.not(":checked"))) {
             $('#add-player-avg-' + suffix2).prop('checked', false)
+            var values2 = Array($("input[name='select-checkbox']:checked").closest("td").siblings("td").text())
+            values.push(values2)
             
-        }
-    }
+        }}
     );
 
 
@@ -149,7 +151,7 @@ $(document).ready(function () {
     $('#add-players-btn').click(function (e) {
         var $form = $('#playersform');
         var $checkbox = $('.select-checkbox');
-        // alert(values)
+
         
         if (!$checkbox.is(':checked')) {
             alert('Please select !');
@@ -158,20 +160,31 @@ $(document).ready(function () {
         }
         else
             var values_final = values[values.length -1]
-            // alert("val---" + values.join(", "));
-            // alert(values.length)
-            alert("final" + values_final)
-            alert(values)
-            $form.submit();
+            var values_final_split = JSON.stringify(values_final.toString().split(' '))
+            const chunkSize = 25;
+            for (let i = 1; i < values_final_split.length; i += chunkSize) {
+                const chunk = values_final_split.slice(i, i + chunkSize);
+                alert(chunk)
+            }
+            // $.ajax({
+            //     type: "POST",
+            //     url: "/",
+            //     data: values_final_split,
+            //     dataType: 'json',
+            //     success: function(results){
+            //         console.log(results)
+            //     }
+            // });
+            // // $.post("/", {"myData": values_final_split})
+            // $form.submit();
             
         
     });            
 });
 
-// var values = new Array();
-// $.each($("input[name='select-checkbox']:checked").closest("td").siblings("td"),
-//        function () {
-//             values.push($(this).text());
-//        });
 
-//    alert("val---" + values.join(", "));
+
+function submit() {
+    var myData = values[values.length -1]
+    $.post("/", {"myData": myData})
+}
